@@ -1,0 +1,7 @@
+AI_LOG.txt
+Tool: Claude (Anthropic). Used to extend my existing Unity project (scenes, prefabs, original scripts were made by me earlier).
+AI wrote / rewrote: Boss.cs, BossFireball.cs, GameBootstrap.cs, GameAudio.cs, SpriteLib.cs, SpriteAnimator.cs, HeartsHUD.cs,
+WinScreen.cs, ResourcesTexturePostprocessor.cs, the AI parts of Enemy.cs (patrol/chase/attack), sound hooks in PlayerController/Coin/Heart/Bomb.
+Fixed by AI: demon walked with its back to the player (art faces left -> flipX must be true when facing right);
+Enemy.enemiesRemaining static counter was not reset after a level restart (replaced with a live-enemy registry).
+I also made my GDD with tool Claude.
